@@ -68,7 +68,7 @@ for i in range(ord('a'), ord('z')+1):
 		wires[chr(i)+chr(j)] = EvalNode(chr(i)+chr(j));
 
 #add wire tree
-with open("input7.txt") as f:
+with open("input/input7.txt") as f:
 	for line in f:
 		parseLine( line );
 
